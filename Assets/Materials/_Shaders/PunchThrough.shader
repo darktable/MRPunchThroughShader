@@ -22,6 +22,7 @@ Shader "MR/Punch Through"
         Tags { "RenderType"="Opaque" }
         LOD 100
         ColorMask 0
+        ZTest[_ZTest]
         ZWrite[_ZWrite]
         Cull[_Cull]
         
